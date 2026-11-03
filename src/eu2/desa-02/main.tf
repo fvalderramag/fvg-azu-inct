@@ -24,8 +24,8 @@ resource "azurerm_key_vault" "kv" {
   soft_delete_retention_days = 7
   purge_protection_enabled   = false
 
-  # Habilita el modelo de permisos Azure RBAC
-  rbac_authorization_enabled = true
+  # Habilita el modelo de permisos Azure RBAC  
+  enable_rbac_authorization = true
 
   # Acceso público habilitado (redes abiertas)
   public_network_access_enabled = true
