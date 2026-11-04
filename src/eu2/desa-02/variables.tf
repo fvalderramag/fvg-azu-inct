@@ -12,7 +12,7 @@ variable "location" {
 
 variable "key_vault_name" {
   type        = string
-  default     = "kv-jira-seguro-01" # Recuerda que el nombre debe ser único a nivel global
+  default     = "kv-jira-fvg-01"
   description = "Nombre globalmente único del Key Vault"
 }
 
